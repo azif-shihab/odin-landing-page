@@ -26,7 +26,7 @@ body {
 
 a {
 	text-decoration: none;
-	color: #fff;
+	color: #FFF;
 	font-size: 16px;
 }
 
@@ -34,19 +34,28 @@ a {
 
 .header-section {
 	display: flex;
+	align-items: center;
 	justify-content: space-between;
-	padding: 32px;
+	padding: 72px 32px 72px 32px;
 	min-height: 50px;
 }
 
 .header-logo {
+	display: flex;
+	align-items: center;
+	height: 40px;
+	width: 400px;
 	font-size: 24px;
 	font-weight: 900;
+	font-family: "Bruno Ace SC", sans-serif;
+	font-style: normal;
 }
 
 .nav-links {
 	display: flex;
 	gap: 16px;
+	font-family: "Lato", sans-serif;
+
 }
 
 /* Hero Section */
@@ -58,6 +67,7 @@ a {
 	justify-content: space-between;
 	align-items: center;
 	margin-bottom: 100px;
+	flex-wrap: wrap;
 }
 
 .hero-content {
@@ -69,12 +79,15 @@ a {
 
 .hero-title {
 	display: flex;
+	width: 800px;
 	font-size: 48px;
 	font-weight: 900;
+	font-family: "Bruno Ace SC", sans-serif;
 }
 
 .hero-description {
 	font-style: italic;
+	font-family: "JetBrains Mono", monospace;
 }
 
 .hero-cta-button {
@@ -86,6 +99,8 @@ a {
 
 .hero-image {
 	display: flex;
+	align-items: center;
+	justify-content: flex-end;
 	height: 400px;
 	width: 900px;
 	overflow: hidden;
@@ -100,9 +115,10 @@ a {
 .info-section {
 	display: flex;
 	flex-direction: column;
-	border: 1px solid grey;
+	justify-content: center;
+	align-items: center;
+	min-height: 1000px;
 	border-radius: 10px;
-	background-color: rgba(0, 0, 0, 0.5);
 	padding: 72px;
 	gap: 32px;
 	
@@ -111,53 +127,61 @@ a {
 .info-heading {
 	display: flex;
 	justify-content: center;
+	text-shadow:  2px 2px black ;
+	font-family: "Eagle Lake", serif;
 	font-size: 32px;
-	font-weight: 800;
+	font-weight: 900;
 }
 
 .info-body {
 	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 32px;
+	flex-wrap: wrap;
 	gap: 32px;
 }
 
 .info-card {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 	align-items: center;
+	border: 1px solid grey;
+	background-color: rgba(0, 0, 0, 0.5);
+	min-height: 700px;
+	border-radius: 10px;
 	flex-shrink: 0;
-	width: 400px;
-	height: 500px;
+	width: 500px;
 	padding: 16px;
 	gap: 16px;
 	
 }
 .info-image img {
+	display: flex;
 	flex-shrink: 0;
-	width: 388px;
-	height: 288px;
+	width: 400px;
+	height: 300px;
 	border-radius: 10px;
 	object-fit: fill;
 }
-.info-image {
-	flex-shrink: 0;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	border: 5px solid white;
-	border-radius: 10px;
-	width: 393px;
-	height: 293px;
-	
-}
 
 .info-title {
+	display: flex;
 	text-align: center;
+	justify-content: center;
+	width: 400px;
+	font-family: "Eagle Lake", serif;
+	padding: 10px;
 	font-size: 25px;
 	font-weight: 800;
 }
 
 .info-description {
-	font-size: 18px;
+	width: 400px;
+	display: flex;
+	font-family: "Caveat",cursive;
+	font-size: 28px;
 	text-align: center;
 }
 
@@ -167,7 +191,7 @@ a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	min-height: 1000px;
+	height: 60vh;
 	
 }
 
@@ -179,13 +203,15 @@ a {
 }
 
 .quote-text {
-	font-size: 36px;
-	font-weight: 300;
-	max-width: 800px;
+	font-size: 48px;
+	font-family: "Island Moments", cursive;
+	font-weight: 500;
+	max-width: 900px;
 }
 
 .quote-author {
 	font-size: 20px;
+	font-family: "Eagle Lake", serif;
 	align-self: flex-end;
 	font-weight: bold;
 }
@@ -196,7 +222,7 @@ a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	min-height: 300px;
+	min-height: 500px;
 	padding: 72px;
 	
 }
@@ -211,13 +237,22 @@ a {
 }
 
 .cta-heading {
+	font-family: 'Times New Roman', Times, serif;
 	font-size: 32px;
 	font-weight: 700;
+	margin-bottom: 16px;
 }
 
 .cta-description {
+	font-family: 'Times New Roman', Times, serif;
 	font-size: 24px;
 	max-width: 600px;
+}
+
+button {
+ 	background-color: #47151B;
+	color: #fff;
+	border: none;
 }
 
 .cta-button {
@@ -230,10 +265,13 @@ a {
 /* Footer Section  */
 
 .footer-section {
+	font-family: "Lato", sans-serif;
+	background-color: rgba(0, 0, 0, 0.5);
+	margin: 0;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	padding: 32px;
-	gap: 16px;
+	gap: 8px;
 	
 }

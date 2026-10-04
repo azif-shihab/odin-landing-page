@@ -95,8 +95,8 @@ a {
 }
 
 .hero-cta-button {
-	min-height:  40px;
-	min-width: 100px;
+	height:  40px;
+	width: 100px;
 	border-radius: 8px;
 	flex-shrink: 0;
 }
@@ -270,8 +270,8 @@ button:hover {
 }
 
 .cta-button {
-	min-height:  40px;
-	min-width: 100px;
+	height:  40px;
+	width: 100px;
 	border-radius: 8px;
 	flex-shrink: 0;
 }

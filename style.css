@@ -27,7 +27,11 @@ body {
 a {
 	text-decoration: none;
 	color: #FFF;
-	font-size: 16px;
+	font-size: 15px;
+}
+
+.nav-links a:hover {
+	color: grey;
 }
 
 /* Header Section */
@@ -53,7 +57,7 @@ a {
 
 .nav-links {
 	display: flex;
-	gap: 16px;
+	gap: 32px;
 	font-family: "Lato", sans-serif;
 
 }
@@ -91,8 +95,8 @@ a {
 }
 
 .hero-cta-button {
-		min-height:  40px;
-	max-width: 100px;
+	min-height:  40px;
+	min-width: 100px;
 	border-radius: 8px;
 	flex-shrink: 0;
 }
@@ -145,18 +149,23 @@ a {
 .info-card {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
 	border: 1px solid grey;
 	background-color: rgba(0, 0, 0, 0.5);
-	min-height: 700px;
+	height: 720px;
 	border-radius: 10px;
 	flex-shrink: 0;
 	width: 500px;
-	padding: 16px;
+	padding: 48px;
 	gap: 16px;
 	
 }
+
+.info-card:hover {
+	background-color: rgba(255, 255, 255, 0.1);
+	text-shadow: 2px 2px black;
+}
+
 .info-image img {
 	display: flex;
 	flex-shrink: 0;
@@ -253,6 +262,11 @@ button {
  	background-color: #47151B;
 	color: #fff;
 	border: none;
+}
+
+button:hover {
+	background-color: #261014;
+	cursor: pointer;
 }
 
 .cta-button {

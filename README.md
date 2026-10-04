@@ -26,6 +26,10 @@ The project recreates the provided landing page design while applying HTML and C
 - Footer
 - Deployed using GitHub Pages
 
+## Responsiveness
+
+This project is **not responsive**. Responsive design was not required as part of the project assignment, so the page was designed and optimized for a regular computer screen.
+
 ## What I Learned
 
 Through this project, I practiced:
